@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="">
+    <title>Company Home Page</title>
+    <link rel="stylesheet" href="task3.css">
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            animation-name: example;
+            animation-duration: 2s;
+            position: relative;
+            animation-delay: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        }
+        @keyframes example {
+    0%   {background-color: aquamarine;top:0px;left:0px;}
+    25%  {background-color: yellow;top:0px;left:500px;}
+    50%  {background-color: blue;top: 500px; left:500px;}
+    75%  {background-color: red;top: 500px;left: 0px;}
+    100% {background-color: green;top:0px;left:0px;}
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="company">MyCompany</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="welcome">
+        <h1>Welcome to MyCompany</h1>
+        <p>We provide top-notch services to help your business grow.</p>
+    </div>
+
+    <div class="box"></div>
+</body>
+</html>
+`
+
+
+</body>
+</html>
