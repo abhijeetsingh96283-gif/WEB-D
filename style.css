@@ -1,0 +1,52 @@
+h1{
+    color:#0000ff;
+    background-color:#4bf70c;
+    text-align: left;
+    text-decoration:underline;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial;
+
+}
+h2{
+    color:#00ff00;
+    background-color: #ffff00;
+    text-align:center;
+}
+h3{
+    color:#0000ff;
+    background-color: aliceblue;
+    text-align: right;
+}
+h4{
+    color:#00ff00;
+    background-color: aqua;
+}
+h5{
+    color:#ff0000;
+}
+
+#box{
+    background-color:#0000ff;
+
+}
+.myclass{
+    color:#ff0000;
+    
+}
+p{
+    color:#ff0000;
+    background-color: #00ff00;
+    font-size:20px;
+}
+#first{
+    margin: 30px;
+    padding: 30px;
+}
+#second{
+    margin: 30px;
+    padding: 30px;
+}
+#third{
+    margin: 20px;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      border: 1px solid black;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      background-color: #f4a460;
+      height: 60px;
+    }
+
+    .logo {
+      width: 100px;
+      text-align: center;
+      font-weight: bold;
+      border-right: 1px solid black;
+    }
+
+    .website-name {
+      flex: 1;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .menu {
+      display: flex;
+      background-color: #fdebd0;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    .menu div {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border-right: 1px solid black;
+      cursor: pointer;
+    }
+
+    .menu div:last-child {
+      border-right: none;
+    }
+
+    .main {
+      display: flex;
+      min-height: 400px;
+    }
+
+    .sidebar {
+      width: 100px;
+      border-right: 1px solid black;
+      background-color: #f9f9f9;
+      padding-top: 20px;
+    }
+
+    .sidebar div {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .content {
+      flex: 1;
+      padding: 50px;
+    }
+
+    .content h3 {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: inline-block;
+      width: 100px;
+    }
+
+    .form-group input {
+      padding: 5px;
+      border: 2px solid black;
+      width: 200px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons input[type="submit"] {
+      background-color: white;
+      color: red;
+      font-weight: bold;
+      padding: 8px 16px;
+      border: 2px solid black;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+
+    .buttons input[type="reset"] {
+      background-color: #f2f2f2;
+      padding: 8px 16px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">Logo</div>
+      <div class="website-name">WebSite Name</div>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+      <div>Home</div>
+      <div>Login</div>
+      <div>Registration</div>
+      <div>Catalogue</div>
+      <div>Cart</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div>CSE</div>
+        <div>ECE</div>
+        <div>EEE</div>
+        <div>CIVIL</div>
+      </div>
+
+      <!-- Login Form -->
+      <div class="content">
+        <h3>Login Page</h3>
+
+        <form>
+          <div class="form-group">
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username">
+          </div>
+
+          <div class="form-group">
+            <label for="password">Passwords:</label>
+            <input type="password" id="password" name="password">
+          </div>
+
+          <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

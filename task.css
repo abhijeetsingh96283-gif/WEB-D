@@ -1,0 +1,12 @@
+.parent {
+            display: flex;
+            gap: 30px; /
+            margin: 40px;
+        }
+        #left, #right {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
