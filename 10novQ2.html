@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+  <style>
+    :root {
+      --bg-header: #4CAF50;
+      --bg-about: #2196F3;
+      --bg-contact: #FF9800;
+      --bg-footer: #333;
+      --text-light: #ffffff;
+      --font-main: Arial, sans-serif;
+      --padding: 2rem;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-main);
+    }
+
+    .section {
+      padding: var(--padding);
+      color: var(--text-light);
+    }
+
+    #welcome {
+      background: var(--bg-header);
+    }
+
+    #about {
+      background: var(--bg-about);
+    }
+
+    #contact {
+      background: var(--bg-contact);
+    }
+
+    #footer {
+      background: var(--bg-footer);
+    }
+  </style>
+</head>
+<body>
+  <div id="welcome" class="section">
+    <h1>Welcome to my page</h1>
+  </div>
+
+  <div id="about" class="section">
+    <h2>About</h2>
+    <p>This is the about section.</p>
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Reach out via email@example.com</p>
+  </div>
+
+  <div id="footer" class="section">
+    <p>&copy; 2024 My Page</p>
+  </div>
+</body>
+</html>
